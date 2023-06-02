@@ -1,0 +1,196 @@
+:root {
+  --main-font: "Playfair Display", serif;
+  --linkColor: #bf00ff;
+  --neonColor: #df00ff;
+}
+
+.homepage {
+  background-color: #1c1c1c;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--main-font);
+  text-align: center;
+}
+h1 {
+  font-size: 45px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 60px;
+  margin: 0 auto;
+}
+.links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  font-family: var(--main-font);
+  font-weight: bold;
+}
+#contactLink {
+  border: 1px inset #1c1c1c;
+  border-radius: 4px;
+  background-color: var(--linkColor);
+  padding: 30px 15px;
+  margin: 30px;
+  width: 90px;
+  color: #1c1c1c;
+  text-decoration: none;
+  text-align: center;
+}
+#contactLink:hover {
+  -webkit-box-shadow: 0px 30px 40px -16px rgba(238, 0, 255, 0.65);
+  -moz-box-shadow: 0px 30px 40px -16px rgba(238, 0, 255, 0.65);
+  box-shadow: 0px 30px 40px -16px rgba(238, 0, 255, 0.65);
+  color: #fcedff;
+}
+
+#myWorkLink {
+  border: 1px inset #1c1c1c;
+  border-radius: 4px;
+  background-color: var(--linkColor);
+  padding: 30px 15px;
+  margin: 30px;
+  width: 90px;
+  text-decoration: none;
+  color: #1c1c1c;
+  text-align: center;
+}
+
+#myWorkLink:hover {
+  -webkit-box-shadow: 0px 30px 40px -16px rgba(238, 0, 255, 0.65);
+  -moz-box-shadow: 0px 30px 40px -16px rgba(238, 0, 255, 0.65);
+  box-shadow: 0px 30px 40px -16px rgba(238, 0, 255, 0.65);
+  color: #fcedff;
+}
+.neonText {
+  animation: pulsate 2s infinite alternate;
+  color: #fff;
+  text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff,
+    0 0 40px var(--neonColor), 0 0 80px df00ff, 0 0 90px var(--neonColor),
+    0 0 100px var(--neonColor), 0 0 150px var(--neonColor);
+}
+
+.pulsate {
+  animation: pulsate 2s infinite alternate;
+}
+@keyframes pulsate {
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff,
+      0 0 40px var(--neonColor), 0 0 80px var(--neonColor),
+      0 0 90px var(--neonColor), 0 0 100px var(--neonColor),
+      0 0 150px var(--neonColor);
+  }
+
+  0% {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff,
+      0 0 10px var(--neonColor), 0 0 45px var(--neonColor),
+      0 0 55px var(--neonColor), 0 0 70px var(--neonColor),
+      0 0 80px var(--neonColor);
+  }
+}
+
+/*about page*/
+
+#aboutPage {
+  background: #1c1c1c;
+  color: var(--neonColor);
+  font-family: var(--main-font);
+}
+
+.container {
+  display: flex;
+  padding: 24px;
+  width: 600px;
+  border-radius: 8px;
+  gap: 12px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+  color: var(--linkColor);
+}
+#contactMe {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 45px 0px 0px 0px;
+  color: #6b0b8e;
+}
+#contactMeLink {
+  border-radius: 4px;
+  background-color: var(--linkColor);
+  padding: 30px 15px;
+  text-decoration: none;
+  color: #1c1c1c;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: fit-content;
+}
+
+.contact {
+  list-style: none;
+  text-align: left;
+  color: #6b0b8e;
+  border: 20px;
+}
+.homepageLink {
+  border-radius: 4px;
+  background-color: var(--linkColor);
+  padding: 30px 15px;
+  text-decoration: none;
+  color: #1c1c1c;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: fit-content;
+}
+.homepageLink:hover {
+  -webkit-box-shadow: 0px 30px 40px -16px rgba(238, 0, 255, 0.65);
+  -moz-box-shadow: 0px 30px 40px -16px rgba(238, 0, 255, 0.65);
+  box-shadow: 0px 30px 40px -16px rgba(238, 0, 255, 0.65);
+  color: #fcedff;
+}
+
+.contactDiv {
+  display: flex;
+  padding: 14px;
+  width: 450px;
+  border-radius: 8px;
+  gap: 12px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+  color: var(--linkColor);
+}
+
+.contactInfo {
+  padding: 4px;
+  text-decoration: none;
+  color: #6b0b8e;
+}
+/*My work page*/
+
+#myWork {
+  background: #1c1c1c;
+  font-family: var(--main-font);
+}
+
+.myWorkInformation {
+  background: #fff;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
