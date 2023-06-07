@@ -5,8 +5,11 @@
 }
 
 .homepage {
-  background-color: #1c1c1c;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/547/original/Blue_Neon_Attention_Notice_Night_Light_Wall_Instagram_Story_%28Easel_Background%29.png?1685977465");
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 h1,
 h2,
 h3 {
@@ -94,7 +97,9 @@ h2 {
 /*about page*/
 
 #aboutPage {
-  background: #1c1c1c;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/547/original/Blue_Neon_Attention_Notice_Night_Light_Wall_Instagram_Story_%28Easel_Background%29.png?1685977465");
+  background-repeat: no-repeat;
+  background-position: center;
   color: var(--neonColor);
   font-family: var(--main-font);
 }
@@ -175,7 +180,9 @@ h2 {
 /*My work page*/
 
 #myWork {
-  background: #1c1c1c;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/547/original/Blue_Neon_Attention_Notice_Night_Light_Wall_Instagram_Story_%28Easel_Background%29.png?1685977465");
+  background-repeat: no-repeat;
+  background-position: center;
   font-family: var(--main-font);
 }
 
